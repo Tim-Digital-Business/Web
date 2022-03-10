@@ -1,6 +1,4 @@
-# Web
-
--Cool select animation
+# Cool select animation
 
 ## Usage
 
