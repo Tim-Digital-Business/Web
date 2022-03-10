@@ -7,6 +7,7 @@
 }
 :root {
   --clr: #222327;
+  --data-color: yellow;
 }
 body {
   display: flex;
@@ -120,4 +121,21 @@ body {
 }
 .navigation ul li:nth-child(5).active ~ .indicator {
   transform: translateX(calc(70px * 4));
+}
+
+/* Color the indicator */
+.navigation ul li:nth-child(1).active ~ .indicator {
+  background-color: #f0ff00;
+}
+.navigation ul li:nth-child(2).active ~ .indicator {
+  background-color: #00ff62;
+}
+.navigation ul li:nth-child(3).active ~ .indicator {
+  background-color: #ff0095;
+}
+.navigation ul li:nth-child(4).active ~ .indicator {
+  background-color: #00a2ff;
+}
+.navigation ul li:nth-child(5).active ~ .indicator {
+  background-color: #ff0000;
 }
